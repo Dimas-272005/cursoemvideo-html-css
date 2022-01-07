@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+
+:root{
+    --cor:0 #A8EAC6;
+    --cor:1 #2B6645;
+    --cor:2 #60E69C;
+    --cor:3 #4E6659;
+    --cor:4 #4BB37A;
+    --cor:5 #85FFBC;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+#cabecalho{
+    background-color: #A8EAC6;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+#logo{
+    text-align: center;
+    padding: 5px;
+}
+
+nav{
+    background-color: #4BB37A;
+    width: 100%;
+    height: 25px;
+    
+    
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #A8EAC6;
+    font-weight: bold;
+    margin-right: 30px;
+    line-height: 1.5em;
+}
+
+nav > a:hover{
+    background-color: #2B6645;
+    color: #60E69C;
+}
+
+
+
+div #cidade{
+    background-color:transparent;
+    margin: auto;
+    padding-top: 10px;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+
+div #teste{
+    background-image: url('../fotos/lemao.foto.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60vh;
+    float: left;
+    position: relative;
+    padding-top: 55px;
+    width: 100%;
+    height: 350px;
+    
+    
+}
+
+ #fotocidade{
+    width: 100%;
+    height: 100%;
+
+}
+
+#fotolemao{
+    width: 340px;
+    height: 305px;
+
+}
+
+
